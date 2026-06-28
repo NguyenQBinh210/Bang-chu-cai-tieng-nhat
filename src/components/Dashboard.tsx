@@ -91,15 +91,15 @@ export const Dashboard: React.FC<DashboardProps> = ({ completedQuizzes, onSelect
       </div>
 
       {/* Navigation Quick Cards */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', flexWrap: 'wrap' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '20px', marginBottom: '24px' }}>
         <div 
           className="lesson-card-item glass" 
           onClick={() => onSelectTab('lessons')}
-          style={{ borderLeft: '5px solid var(--primary)', cursor: 'pointer', padding: '24px' }}
+          style={{ borderLeft: '5px solid var(--primary)', cursor: 'pointer', padding: '20px' }}
         >
           <div>
-            <h3 style={{ fontSize: '20px', marginBottom: '8px' }}>Học theo bài giảng 📚</h3>
-            <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
+            <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Học theo bài giảng 📚</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>
               Học phát âm, cách vẽ nét và ví dụ trực quan theo từng bài học ngắn.
             </p>
           </div>
@@ -108,12 +108,51 @@ export const Dashboard: React.FC<DashboardProps> = ({ completedQuizzes, onSelect
         <div 
           className="lesson-card-item glass" 
           onClick={() => onSelectTab('alphabet')}
-          style={{ borderLeft: '5px solid var(--secondary)', cursor: 'pointer', padding: '24px' }}
+          style={{ borderLeft: '5px solid var(--secondary)', cursor: 'pointer', padding: '20px' }}
         >
           <div>
-            <h3 style={{ fontSize: '20px', marginBottom: '8px' }}>Bảng tra cứu chữ cái 🔍</h3>
-            <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
-              Xem toàn bộ chữ cái Hiragana & Katakana, bấm để nghe âm thanh bất kỳ chữ nào.
+            <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Bảng tra cứu chữ cái 🔍</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>
+              Xem toàn bộ chữ cái Hiragana & Katakana, bấm để nghe âm thanh.
+            </p>
+          </div>
+        </div>
+
+        <div 
+          className="lesson-card-item glass" 
+          onClick={() => onSelectTab('vocab')}
+          style={{ borderLeft: '5px solid var(--accent)', cursor: 'pointer', padding: '20px' }}
+        >
+          <div>
+            <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Học từ vựng 📝</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>
+              Luyện ôn 200 từ vựng từ bài tập với thẻ ghi nhớ 3D và Trắc nghiệm phản xạ.
+            </p>
+          </div>
+        </div>
+
+        <div 
+          className="lesson-card-item glass" 
+          onClick={() => onSelectTab('typing')}
+          style={{ borderLeft: '5px solid var(--warning)', cursor: 'pointer', padding: '20px' }}
+        >
+          <div>
+            <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Luyện gõ chữ ⌨️</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>
+              Nhìn mặt chữ Nhật gõ phiên âm Romaji tương ứng chạy đua thời gian.
+            </p>
+          </div>
+        </div>
+
+        <div 
+          className="lesson-card-item glass" 
+          onClick={() => onSelectTab('game')}
+          style={{ borderLeft: '5px solid var(--success)', cursor: 'pointer', padding: '20px' }}
+        >
+          <div>
+            <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Trò chơi Lật thẻ 🎮</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>
+              Rèn luyện phản xạ ghép cặp mặt chữ Hiragana/Katakana với Romaji.
             </p>
           </div>
         </div>

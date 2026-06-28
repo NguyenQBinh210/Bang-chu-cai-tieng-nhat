@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "いいえ",
+    "correct_answer": "iie",
+    "hint": "Không, không phải"
+  },
+  {
+    "id": 2,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "あい",
+    "correct_answer": "ai",
+    "hint": "Tình yêu"
+  },
+  {
+    "id": 3,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "いい",
+    "correct_answer": "ii",
+    "hint": "Tốt, ngon, được"
+  },
+  {
+    "id": 4,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "いう",
+    "correct_answer": "iu",
+    "hint": "Nói"
+  },
+  {
+    "id": 5,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "あお",
+    "correct_answer": "ao",
+    "hint": "Màu xanh"
+  },
+  {
+    "id": 6,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "あおい",
+    "correct_answer": "aoi",
+    "hint": "Màu xanh da trời"
+  },
+  {
+    "id": 7,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "うえ",
+    "correct_answer": "ue",
+    "hint": "Ở trên, phía trên"
+  },
+  {
+    "id": 8,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "おおい",
+    "correct_answer": "ooi",
+    "hint": "Nhiều"
+  },
+  {
+    "id": 9,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "い",
+    "correct_answer": "i",
+    "hint": "Dạ dày"
+  },
+  {
+    "id": 10,
+    "alphabet": "hiragana",
+    "row": "a",
+    "question": "いおう",
+    "correct_answer": "iou",
+    "hint": "Lưu huỳnh"
+  },
+  {
+    "id": 11,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "いこう",
+    "correct_answer": "ikou",
+    "hint": "Đi thôi, đi nào"
+  },
+  {
+    "id": 12,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "かい",
+    "correct_answer": "kai",
+    "hint": "Sò, nghêu, lần"
+  },
+  {
+    "id": 13,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "いく",
+    "correct_answer": "iku",
+    "hint": "Đi"
+  },
+  {
+    "id": 14,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "きけ",
+    "correct_answer": "kike",
+    "hint": "Hãy nghe"
+  },
+  {
+    "id": 15,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "かお",
+    "correct_answer": "kao",
+    "hint": "Khuôn mặt"
+  },
+  {
+    "id": 16,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "いき",
+    "correct_answer": "iki",
+    "hint": "Hơi thở, đi"
+  },
+  {
+    "id": 17,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "きく",
+    "correct_answer": "kiku",
+    "hint": "Nghe, hỏi"
+  },
+  {
+    "id": 18,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "きかい",
+    "correct_answer": "kikai",
+    "hint": "Cơ hội, máy móc"
+  },
+  {
+    "id": 19,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "おけ",
+    "correct_answer": "oke",
+    "hint": "Thùng gỗ"
+  },
+  {
+    "id": 20,
+    "alphabet": "hiragana",
+    "row": "ka",
+    "question": "ここ",
+    "correct_answer": "koko",
+    "hint": "Ở đây, chỗ này"
+  },
+  {
+    "id": 21,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "あさ",
+    "correct_answer": "asa",
+    "hint": "Buổi sáng"
+  },
+  {
+    "id": 22,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "かさ",
+    "correct_answer": "kasa",
+    "hint": "Cái ô, cái dù"
+  },
+  {
+    "id": 23,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "すし",
+    "correct_answer": "sushi",
+    "hint": "Món sushi"
+  },
+  {
+    "id": 24,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "いし",
+    "correct_answer": "ishi",
+    "hint": "Ý chí, hòn đá, bác sĩ"
+  },
+  {
+    "id": 25,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "いす",
+    "correct_answer": "isu",
+    "hint": "Cái ghế"
+  },
+  {
+    "id": 26,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "あす",
+    "correct_answer": "asu",
+    "hint": "Ngày mai"
+  },
+  {
+    "id": 27,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "あせ",
+    "correct_answer": "ase",
+    "hint": "Mồ hôi"
+  },
+  {
+    "id": 28,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "せかい",
+    "correct_answer": "sekai",
+    "hint": "Thế giới"
+  },
+  {
+    "id": 29,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "そこ",
+    "correct_answer": "soko",
+    "hint": "Chỗ đó"
+  },
+  {
+    "id": 30,
+    "alphabet": "hiragana",
+    "row": "sa",
+    "question": "あそこ",
+    "correct_answer": "asoko",
+    "hint": "Chỗ kia"
+  },
+  {
+    "id": 31,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "うけつけ",
+    "correct_answer": "uketsuke",
+    "hint": "Quầy tiếp tân"
+  },
+  {
+    "id": 32,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "とけい",
+    "correct_answer": "tokei",
+    "hint": "Đồng hồ"
+  },
+  {
+    "id": 33,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "うち",
+    "correct_answer": "uchi",
+    "hint": "Nhà, bên trong"
+  },
+  {
+    "id": 34,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "おととい",
+    "correct_answer": "ototoi",
+    "hint": "Hôm kia"
+  },
+  {
+    "id": 35,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "あつい",
+    "correct_answer": "atsui",
+    "hint": "Nóng (thời tiết/cảm giác)"
+  },
+  {
+    "id": 36,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "ちかてつ",
+    "correct_answer": "chikatetsu",
+    "hint": "Tàu điện ngầm"
+  },
+  {
+    "id": 37,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "すてき",
+    "correct_answer": "suteki",
+    "hint": "Tuyệt vời, đẹp đẽ"
+  },
+  {
+    "id": 38,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "ちち",
+    "correct_answer": "chichi",
+    "hint": "Bố (của mình)"
+  },
+  {
+    "id": 39,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "おとうと",
+    "correct_answer": "otouto",
+    "hint": "Em trai"
+  },
+  {
+    "id": 40,
+    "alphabet": "hiragana",
+    "row": "ta",
+    "question": "しかた",
+    "correct_answer": "shikata",
+    "hint": "Cách làm, phương pháp"
+  },
+  {
+    "id": 41,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "なに",
+    "correct_answer": "nani",
+    "hint": "Cái gì"
+  },
+  {
+    "id": 42,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "あなた",
+    "correct_answer": "anata",
+    "hint": "Bạn, anh, em"
+  },
+  {
+    "id": 43,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "あのこ",
+    "correct_answer": "anoko",
+    "hint": "Đứa trẻ kia"
+  },
+  {
+    "id": 44,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "きのう",
+    "correct_answer": "kinou",
+    "hint": "Hôm qua"
+  },
+  {
+    "id": 45,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "いぬ",
+    "correct_answer": "inu",
+    "hint": "Con chó"
+  },
+  {
+    "id": 46,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "ねこ",
+    "correct_answer": "neko",
+    "hint": "Con mèo"
+  },
+  {
+    "id": 47,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "さかな",
+    "correct_answer": "sakana",
+    "hint": "Con cá"
+  },
+  {
+    "id": 48,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "あに",
+    "correct_answer": "ani",
+    "hint": "Anh trai"
+  },
+  {
+    "id": 49,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "あね",
+    "correct_answer": "ane",
+    "hint": "Chị gái"
+  },
+  {
+    "id": 50,
+    "alphabet": "hiragana",
+    "row": "na",
+    "question": "その",
+    "correct_answer": "sono",
+    "hint": "Đó, cái đó"
+  },
+  {
+    "id": 51,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "あのひと",
+    "correct_answer": "anohito",
+    "hint": "Người kia"
+  },
+  {
+    "id": 52,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "はな",
+    "correct_answer": "hana",
+    "hint": "Bông hoa, cái mũi"
+  },
+  {
+    "id": 53,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "はち",
+    "correct_answer": "hachi",
+    "hint": "Số tám, con ong"
+  },
+  {
+    "id": 54,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "ひとつ",
+    "correct_answer": "hitotsu",
+    "hint": "Một cái (đếm đồ vật)"
+  },
+  {
+    "id": 55,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "ふつか",
+    "correct_answer": "futsuka",
+    "hint": "Ngày mùng 2, hai ngày"
+  },
+  {
+    "id": 56,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "ふつう",
+    "correct_answer": "futsuu",
+    "hint": "Bình thường, thông thường"
+  },
+  {
+    "id": 57,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "ほし",
+    "correct_answer": "hoshi",
+    "hint": "Ngôi sao"
+  },
+  {
+    "id": 58,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "ほかのひと",
+    "correct_answer": "hokanohito",
+    "hint": "Người khác"
+  },
+  {
+    "id": 59,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "はかせ",
+    "correct_answer": "hakase",
+    "hint": "Tiến sĩ"
+  },
+  {
+    "id": 60,
+    "alphabet": "hiragana",
+    "row": "ha",
+    "question": "ふく",
+    "correct_answer": "fuku",
+    "hint": "Quần áo, thổi"
+  },
+  {
+    "id": 61,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "いきます",
+    "correct_answer": "ikimasu",
+    "hint": "Đi (kính ngữ)"
+  },
+  {
+    "id": 62,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "いま",
+    "correct_answer": "ima",
+    "hint": "Bây giờ"
+  },
+  {
+    "id": 63,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "みます",
+    "correct_answer": "mimasu",
+    "hint": "Nhìn, xem"
+  },
+  {
+    "id": 64,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "みたい",
+    "correct_answer": "mitai",
+    "hint": "Muốn xem, giống như"
+  },
+  {
+    "id": 65,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "むすこ",
+    "correct_answer": "musuko",
+    "hint": "Con trai"
+  },
+  {
+    "id": 66,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "むすめ",
+    "correct_answer": "musume",
+    "hint": "Con gái"
+  },
+  {
+    "id": 67,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "もも",
+    "correct_answer": "momo",
+    "hint": "Quả đào, đùi"
+  },
+  {
+    "id": 68,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "のみもの",
+    "correct_answer": "nomimono",
+    "hint": "Thức uống, đồ uống"
+  },
+  {
+    "id": 69,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "あめ",
+    "correct_answer": "ame",
+    "hint": "Cơn mưa, kẹo"
+  },
+  {
+    "id": 70,
+    "alphabet": "hiragana",
+    "row": "ma",
+    "question": "ほめます",
+    "correct_answer": "homemasu",
+    "hint": "Khen ngợi"
+  },
+  {
+    "id": 71,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "やせます",
+    "correct_answer": "yasemasu",
+    "hint": "Gầy đi, giảm cân"
+  },
+  {
+    "id": 72,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "やすい",
+    "correct_answer": "yasui",
+    "hint": "Rẻ, dễ dàng"
+  },
+  {
+    "id": 73,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "やさい",
+    "correct_answer": "yasai",
+    "hint": "Rau củ"
+  },
+  {
+    "id": 74,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "なやみ",
+    "correct_answer": "nayami",
+    "hint": "Sự phiền muộn, lo lắng"
+  },
+  {
+    "id": 75,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "おゆ",
+    "correct_answer": "oyu",
+    "hint": "Nước nóng"
+  },
+  {
+    "id": 76,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "よめ",
+    "correct_answer": "yome",
+    "hint": "Con dâu, vợ"
+  },
+  {
+    "id": 77,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "よもう",
+    "correct_answer": "yomou",
+    "hint": "Hãy đọc"
+  },
+  {
+    "id": 78,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "よさこい",
+    "correct_answer": "yosakoi",
+    "hint": "Điệu múa Yosakoi"
+  },
+  {
+    "id": 79,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "ゆき",
+    "correct_answer": "yuki",
+    "hint": "Tuyết"
+  },
+  {
+    "id": 80,
+    "alphabet": "hiragana",
+    "row": "ya",
+    "question": "まゆ",
+    "correct_answer": "mayu",
+    "hint": "Lông mày, kén tằm"
+  },
+  {
+    "id": 81,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "いくら",
+    "correct_answer": "ikura",
+    "hint": "Bao nhiêu tiền"
+  },
+  {
+    "id": 82,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "しらせ",
+    "correct_answer": "shirase",
+    "hint": "Thông báo, tin tức"
+  },
+  {
+    "id": 83,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "きります",
+    "correct_answer": "kirimasu",
+    "hint": "Cắt"
+  },
+  {
+    "id": 84,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "いります",
+    "correct_answer": "irimasu",
+    "hint": "Cần, đi vào"
+  },
+  {
+    "id": 85,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "かえる",
+    "correct_answer": "kaeru",
+    "hint": "Trở về, con ếch, thay đổi"
+  },
+  {
+    "id": 86,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "おくる",
+    "correct_answer": "okuru",
+    "hint": "Gửi, tiễn, tặng"
+  },
+  {
+    "id": 87,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "れきし",
+    "correct_answer": "rekishi",
+    "hint": "Lịch sử"
+  },
+  {
+    "id": 88,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "しれない",
+    "correct_answer": "shirenai",
+    "hint": "Không thể biết, có lẽ"
+  },
+  {
+    "id": 89,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "つくろう",
+    "correct_answer": "tsukurou",
+    "hint": "Hãy làm, hãy chế tạo"
+  },
+  {
+    "id": 90,
+    "alphabet": "hiragana",
+    "row": "ra",
+    "question": "ぜろ",
+    "correct_answer": "zero",
+    "hint": "Số không"
+  },
+  {
+    "id": 91,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "わたし",
+    "correct_answer": "watashi",
+    "hint": "Tôi"
+  },
+  {
+    "id": 92,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "わかい",
+    "correct_answer": "wakai",
+    "hint": "Trẻ trung"
+  },
+  {
+    "id": 93,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "ほん",
+    "correct_answer": "hon",
+    "hint": "Quyển sách"
+  },
+  {
+    "id": 94,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "にほん",
+    "correct_answer": "nihon",
+    "hint": "Nhật Bản"
+  },
+  {
+    "id": 95,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "よわい",
+    "correct_answer": "yowai",
+    "hint": "Yếu ớt"
+  },
+  {
+    "id": 96,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "やかん",
+    "correct_answer": "yakan",
+    "hint": "Ấm đun nước"
+  },
+  {
+    "id": 97,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "いけん",
+    "correct_answer": "iken",
+    "hint": "Ý kiến"
+  },
+  {
+    "id": 98,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "みなさん",
+    "correct_answer": "minasan",
+    "hint": "Mọi người"
+  },
+  {
+    "id": 99,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "ほんをよむ",
+    "correct_answer": "hon wo yomu",
+    "hint": "Đọc sách"
+  },
+  {
+    "id": 100,
+    "alphabet": "hiragana",
+    "row": "wa",
+    "question": "さけをのむ",
+    "correct_answer": "sake wo nomu",
+    "hint": "Uống rượu"
+  },
+  {
+    "id": 101,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "イイエ",
+    "correct_answer": "iie",
+    "hint": "Không, không phải"
+  },
+  {
+    "id": 102,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "アイ",
+    "correct_answer": "ai",
+    "hint": "Tình yêu, Mắt (eye)"
+  },
+  {
+    "id": 103,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "アー",
+    "correct_answer": "a-",
+    "hint": "Âm đọc A kéo dài"
+  },
+  {
+    "id": 104,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "イウ",
+    "correct_answer": "iu",
+    "hint": "Nói"
+  },
+  {
+    "id": 105,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "アオ",
+    "correct_answer": "ao",
+    "hint": "Màu xanh"
+  },
+  {
+    "id": 106,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "アオイ",
+    "correct_answer": "aoi",
+    "hint": "Màu xanh da trời"
+  },
+  {
+    "id": 107,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "ウエ",
+    "correct_answer": "ue",
+    "hint": "Ở trên"
+  },
+  {
+    "id": 108,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "オーイ",
+    "correct_answer": "o-i",
+    "hint": "Này, ơi (gọi)"
+  },
+  {
+    "id": 109,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "オ",
+    "correct_answer": "o",
+    "hint": "Âm đọc O"
+  },
+  {
+    "id": 110,
+    "alphabet": "katakana",
+    "row": "a",
+    "question": "イオー",
+    "correct_answer": "io-",
+    "hint": "I-o (âm đọc)"
+  },
+  {
+    "id": 111,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "イコー",
+    "correct_answer": "iko-",
+    "hint": "Đi thôi, đi nào"
+  },
+  {
+    "id": 112,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "カイ",
+    "correct_answer": "kai",
+    "hint": "Sò, nghêu, lần"
+  },
+  {
+    "id": 113,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "イク",
+    "correct_answer": "iku",
+    "hint": "Đi"
+  },
+  {
+    "id": 114,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "キケ",
+    "correct_answer": "kike",
+    "hint": "Hãy nghe"
+  },
+  {
+    "id": 115,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "カオ",
+    "correct_answer": "kao",
+    "hint": "Khuôn mặt"
+  },
+  {
+    "id": 116,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "イキ",
+    "correct_answer": "iki",
+    "hint": "Hơi thở"
+  },
+  {
+    "id": 117,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "キク",
+    "correct_answer": "kiku",
+    "hint": "Nghe, hỏi"
+  },
+  {
+    "id": 118,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "キカイ",
+    "correct_answer": "kikai",
+    "hint": "Cơ hội, máy móc"
+  },
+  {
+    "id": 119,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "オケ",
+    "correct_answer": "oke",
+    "hint": "Thùng gỗ"
+  },
+  {
+    "id": 120,
+    "alphabet": "katakana",
+    "row": "ka",
+    "question": "イカ",
+    "correct_answer": "koko",
+    "hint": "Con mực"
+  },
+  {
+    "id": 121,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "アサ",
+    "correct_answer": "asa",
+    "hint": "Buổi sáng"
+  },
+  {
+    "id": 122,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "カサ",
+    "correct_answer": "kasa",
+    "hint": "Cái ô, cái dù"
+  },
+  {
+    "id": 123,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "スシ",
+    "correct_answer": "sushi",
+    "hint": "Món sushi"
+  },
+  {
+    "id": 124,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "イシ",
+    "correct_answer": "ishi",
+    "hint": "Bác sĩ, hòn đá"
+  },
+  {
+    "id": 125,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "イス",
+    "correct_answer": "isu",
+    "hint": "Cái ghế"
+  },
+  {
+    "id": 126,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "アス",
+    "correct_answer": "asu",
+    "hint": "Ngày mai"
+  },
+  {
+    "id": 127,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "アセ",
+    "correct_answer": "ase",
+    "hint": "Mồ hôi"
+  },
+  {
+    "id": 128,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "セキ",
+    "correct_answer": "sekai",
+    "hint": "Ho, ghế ngồi"
+  },
+  {
+    "id": 129,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "クセ",
+    "correct_answer": "soko",
+    "hint": "Thói quen"
+  },
+  {
+    "id": 130,
+    "alphabet": "katakana",
+    "row": "sa",
+    "question": "ウソ",
+    "correct_answer": "asoko",
+    "hint": "Lời nói dối"
+  },
+  {
+    "id": 131,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "ウケツケ",
+    "correct_answer": "uketsuke",
+    "hint": "Quầy tiếp tân"
+  },
+  {
+    "id": 132,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "トケイ",
+    "correct_answer": "tokei",
+    "hint": "Đồng hồ"
+  },
+  {
+    "id": 133,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "ウチ",
+    "correct_answer": "uchi",
+    "hint": "Nhà"
+  },
+  {
+    "id": 134,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "オトトイ",
+    "correct_answer": "ototoi",
+    "hint": "Hôm kia"
+  },
+  {
+    "id": 135,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "アツイ",
+    "correct_answer": "atsui",
+    "hint": "Nóng"
+  },
+  {
+    "id": 136,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "チカテツ",
+    "correct_answer": "chikatetsu",
+    "hint": "Tàu điện ngầm"
+  },
+  {
+    "id": 137,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "ステキ",
+    "correct_answer": "suteki",
+    "hint": "Tuyệt vời, đẹp đẽ"
+  },
+  {
+    "id": 138,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "チチ",
+    "correct_answer": "chichi",
+    "hint": "Bố (của mình)"
+  },
+  {
+    "id": 139,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "イト",
+    "correct_answer": "otouto",
+    "hint": "Sợi chỉ"
+  },
+  {
+    "id": 140,
+    "alphabet": "katakana",
+    "row": "ta",
+    "question": "トーカ",
+    "correct_answer": "shikata",
+    "hint": "Ngày mùng 10"
+  },
+  {
+    "id": 141,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "ナニ",
+    "correct_answer": "nani",
+    "hint": "Cái gì"
+  },
+  {
+    "id": 142,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "アナタ",
+    "correct_answer": "anata",
+    "hint": "Bạn, anh, em"
+  },
+  {
+    "id": 143,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "アノコ",
+    "correct_answer": "anoko",
+    "hint": "Đứa trẻ kia"
+  },
+  {
+    "id": 144,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "キノウ",
+    "correct_answer": "kinou",
+    "hint": "Hôm qua"
+  },
+  {
+    "id": 145,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "イヌ",
+    "correct_answer": "inu",
+    "hint": "Con chó"
+  },
+  {
+    "id": 146,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "ネコ",
+    "correct_answer": "neko",
+    "hint": "Con mèo"
+  },
+  {
+    "id": 147,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "サカナ",
+    "correct_answer": "sakana",
+    "hint": "Con cá"
+  },
+  {
+    "id": 148,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "アニ",
+    "correct_answer": "ani",
+    "hint": "Anh trai"
+  },
+  {
+    "id": 149,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "イヌ",
+    "correct_answer": "ane",
+    "hint": "Con chó (trong bài tập)"
+  },
+  {
+    "id": 150,
+    "alphabet": "katakana",
+    "row": "na",
+    "question": "ソノ",
+    "correct_answer": "sono",
+    "hint": "Đó, cái đó"
+  },
+  {
+    "id": 151,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "アノヒト",
+    "correct_answer": "anohito",
+    "hint": "Người kia"
+  },
+  {
+    "id": 152,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "ハナ",
+    "correct_answer": "hana",
+    "hint": "Bông hoa, cái mũi"
+  },
+  {
+    "id": 153,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "ハチ",
+    "correct_answer": "hachi",
+    "hint": "Số tám, con ong"
+  },
+  {
+    "id": 154,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "ヒトツ",
+    "correct_answer": "hitotsu",
+    "hint": "Một cái"
+  },
+  {
+    "id": 155,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "フツカ",
+    "correct_answer": "futsuka",
+    "hint": "Ngày mùng 2"
+  },
+  {
+    "id": 156,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "フツウ",
+    "correct_answer": "futsuu",
+    "hint": "Bình thường"
+  },
+  {
+    "id": 157,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "ホシ",
+    "correct_answer": "hoshi",
+    "hint": "Ngôi sao"
+  },
+  {
+    "id": 158,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "ホーホー",
+    "correct_answer": "hokanohito",
+    "hint": "Tiếng cú kêu"
+  },
+  {
+    "id": 159,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "ヒコーキ",
+    "correct_answer": "hakase",
+    "hint": "Máy bay"
+  },
+  {
+    "id": 160,
+    "alphabet": "katakana",
+    "row": "ha",
+    "question": "ハハ",
+    "correct_answer": "fuku",
+    "hint": "Mẹ (của mình)"
+  },
+  {
+    "id": 161,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "イキマス",
+    "correct_answer": "ikimasu",
+    "hint": "Đi"
+  },
+  {
+    "id": 162,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "イマ",
+    "correct_answer": "ima",
+    "hint": "Bây giờ"
+  },
+  {
+    "id": 163,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "ミマス",
+    "correct_answer": "mimasu",
+    "hint": "Nhìn, xem"
+  },
+  {
+    "id": 164,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "ミタイ",
+    "correct_answer": "mitai",
+    "hint": "Muốn xem, giống như"
+  },
+  {
+    "id": 165,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "ムスコ",
+    "correct_answer": "musuko",
+    "hint": "Con trai"
+  },
+  {
+    "id": 166,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "ムスメ",
+    "correct_answer": "musume",
+    "hint": "Con gái"
+  },
+  {
+    "id": 167,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "モモ",
+    "correct_answer": "momo",
+    "hint": "Quả đào"
+  },
+  {
+    "id": 168,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "ノミモノ",
+    "correct_answer": "nomimono",
+    "hint": "Đồ uống"
+  },
+  {
+    "id": 169,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "アメ",
+    "correct_answer": "ame",
+    "hint": "Cơn mưa, kẹo"
+  },
+  {
+    "id": 170,
+    "alphabet": "katakana",
+    "row": "ma",
+    "question": "ノメ",
+    "correct_answer": "homemasu",
+    "hint": "Hãy uống (trong bài tập)"
+  },
+  {
+    "id": 171,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "ヤセます",
+    "correct_answer": "yasemasu",
+    "hint": "Gầy đi"
+  },
+  {
+    "id": 172,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "ヤスイ",
+    "correct_answer": "yasui",
+    "hint": "Rẻ"
+  },
+  {
+    "id": 173,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "ヤサイ",
+    "correct_answer": "yasai",
+    "hint": "Rau củ"
+  },
+  {
+    "id": 174,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "ナヤミ",
+    "correct_answer": "nayami",
+    "hint": "Sự lo lắng"
+  },
+  {
+    "id": 175,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "オゆ",
+    "correct_answer": "oyu",
+    "hint": "Nước nóng"
+  },
+  {
+    "id": 176,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "ヨメ",
+    "correct_answer": "yome",
+    "hint": "Con dâu, vợ"
+  },
+  {
+    "id": 177,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "ヨモウ",
+    "correct_answer": "yomou",
+    "hint": "Hãy đọc"
+  },
+  {
+    "id": 178,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "ヨサコイ",
+    "correct_answer": "yosakoi",
+    "hint": "Điệu múa Yosakoi"
+  },
+  {
+    "id": 179,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "ユキ",
+    "correct_answer": "yuki",
+    "hint": "Tuyết"
+  },
+  {
+    "id": 180,
+    "alphabet": "katakana",
+    "row": "ya",
+    "question": "マユ",
+    "correct_answer": "mayu",
+    "hint": "Lông mày"
+  },
+  {
+    "id": 181,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "テレビ",
+    "correct_answer": "terebi",
+    "hint": "Tivi (television)"
+  },
+  {
+    "id": 182,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "テーブル",
+    "correct_answer": "teburu",
+    "hint": "Cái bàn"
+  },
+  {
+    "id": 183,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "アイスクリーム",
+    "correct_answer": "aisukuri-mu",
+    "hint": "Kem (ice cream)"
+  },
+  {
+    "id": 184,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "クジラ",
+    "correct_answer": "kujira",
+    "hint": "Cá voi"
+  },
+  {
+    "id": 185,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "ルール",
+    "correct_answer": "ru-ru",
+    "hint": "Quy tắc (rule)"
+  },
+  {
+    "id": 186,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "ベルト",
+    "correct_answer": "beruto",
+    "hint": "Thắt lưng (belt)"
+  },
+  {
+    "id": 187,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "スリッパ",
+    "correct_answer": "surippa",
+    "hint": "Dép đi trong nhà"
+  },
+  {
+    "id": 188,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "イラク",
+    "correct_answer": "irakku",
+    "hint": "Nước Iraq"
+  },
+  {
+    "id": 189,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "イギリス",
+    "correct_answer": "igirisu",
+    "hint": "Nước Anh"
+  },
+  {
+    "id": 190,
+    "alphabet": "katakana",
+    "row": "ra",
+    "question": "カレーライス",
+    "correct_answer": "kare-raisu",
+    "hint": "Cơm cà ri"
+  },
+  {
+    "id": 191,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "ワタシ",
+    "correct_answer": "watashi",
+    "hint": "Tôi"
+  },
+  {
+    "id": 192,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "ワカイ",
+    "correct_answer": "wakai",
+    "hint": "Trẻ trung"
+  },
+  {
+    "id": 193,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "ホン",
+    "correct_answer": "hon",
+    "hint": "Quyển sách"
+  },
+  {
+    "id": 194,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "ニホン",
+    "correct_answer": "nihon",
+    "hint": "Nhật Bản"
+  },
+  {
+    "id": 195,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "ヨワイ",
+    "correct_answer": "yowai",
+    "hint": "Yếu ớt"
+  },
+  {
+    "id": 196,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "ヤカン",
+    "correct_answer": "yakan",
+    "hint": "Ấm đun nước"
+  },
+  {
+    "id": 197,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "イケン",
+    "correct_answer": "iken",
+    "hint": "Ý kiến"
+  },
+  {
+    "id": 198,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "ミナサン",
+    "correct_answer": "minasan",
+    "hint": "Mọi người"
+  },
+  {
+    "id": 199,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "ホンヲヨム",
+    "correct_answer": "hon wo yomu",
+    "hint": "Đọc sách"
+  },
+  {
+    "id": 200,
+    "alphabet": "katakana",
+    "row": "wa",
+    "question": "サケヲノム",
+    "correct_answer": "sake wo nomu",
+    "hint": "Uống rượu"
+  }
+]

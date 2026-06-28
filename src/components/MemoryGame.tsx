@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { lessons } from '../data/lessons';
+import { hiraganaAlphabet, katakanaAlphabet } from '../data/alphabet';
+import type { AlphabetCharacter } from '../data/alphabet';
 
 interface Card {
   id: number;
@@ -12,6 +13,7 @@ interface Card {
 
 export const MemoryGame: React.FC = () => {
   const [deckType, setDeckType] = useState<'hiragana' | 'katakana' | 'all'>('hiragana');
+  const [charCategory, setCharCategory] = useState<'all' | 'basic' | 'dakuon' | 'yoon'>('basic');
   const [cards, setCards] = useState<Card[]>([]);
   const [selectedIndices, setSelectedIndices] = useState<number[]>([]);
   const [moves, setMoves] = useState(0);
@@ -44,7 +46,7 @@ export const MemoryGame: React.FC = () => {
   useEffect(() => {
     startNewGame();
     return () => stopTimer();
-  }, [deckType]);
+  }, [deckType, charCategory]);
 
   useEffect(() => {
     if (isPlaying && !isWon) {
@@ -69,44 +71,46 @@ export const MemoryGame: React.FC = () => {
     setIsWon(false);
     setSelectedIndices([]);
     
-    // 1. Gather characters based on deckType
-    const allChars: { j: string; r: string }[] = [];
-    lessons.forEach(l => {
-      if (deckType === 'all' || l.type === deckType) {
-        l.characters.forEach(c => {
-          // Prevent duplicates
-          if (!allChars.some(item => item.j === c.japanese)) {
-            allChars.push({ j: c.japanese, r: c.romaji });
-          }
-        });
-      }
-    });
-
-    // 2. Select 8 random characters
-    const selectedChars = [...allChars]
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 8);
-
-    if (selectedChars.length < 8) {
-      // Fallback in case of insufficient chars (should not happen with our database)
-      console.warn("Insufficient characters found");
+    // 1. Gather characters based on filters from full alphabet data source
+    let sourceChars: AlphabetCharacter[] = [];
+    if (deckType === 'hiragana') {
+      sourceChars = [...hiraganaAlphabet];
+    } else if (deckType === 'katakana') {
+      sourceChars = [...katakanaAlphabet];
+    } else {
+      sourceChars = [...hiraganaAlphabet, ...katakanaAlphabet];
     }
 
-    // 3. Create 16 cards (8 Japanese, 8 Romaji)
+    if (charCategory !== 'all') {
+      sourceChars = sourceChars.filter(c => c.category === charCategory);
+    }
+
+    // fallback in case filter produces too few items (should not happen with our 214-char db)
+    if (sourceChars.length === 0) {
+      sourceChars = deckType === 'hiragana' ? [...hiraganaAlphabet] : [...katakanaAlphabet];
+    }
+
+    // 2. Select 8 random characters (or less if pool is smaller)
+    const pairsCount = Math.min(8, sourceChars.length);
+    const selectedChars = [...sourceChars]
+      .sort(() => Math.random() - 0.5)
+      .slice(0, pairsCount);
+
+    // 3. Create cards
     const newCards: Card[] = [];
     selectedChars.forEach((char, idx) => {
       newCards.push({
         id: idx * 2,
-        matchId: char.j,
-        text: char.j,
+        matchId: char.japanese,
+        text: char.japanese,
         type: 'japanese',
         isFlipped: false,
         isMatched: false
       });
       newCards.push({
         id: idx * 2 + 1,
-        matchId: char.j,
-        text: char.r,
+        matchId: char.japanese,
+        text: char.romaji,
         type: 'romaji',
         isFlipped: false,
         isMatched: false
@@ -201,35 +205,56 @@ export const MemoryGame: React.FC = () => {
         <p>Lật thẻ và ghép đôi chữ cái tiếng Nhật với phiên âm Romaji tương ứng để tích lũy phản xạ nhanh!</p>
       </div>
 
-      {/* Control panel & stats */}
-      <div className="glass" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '16px 24px', borderRadius: '16px', marginBottom: '24px' }}>
-        <div style={{ display: 'flex', gap: '8px' }}>
-          <button 
-            className={`tab-btn ${deckType === 'hiragana' ? 'active' : ''}`}
-            onClick={() => setDeckType('hiragana')}
-            style={{ padding: '6px 16px', fontSize: '13px' }}
-          >
-            Hiragana
-          </button>
-          <button 
-            className={`tab-btn ${deckType === 'katakana' ? 'active' : ''}`}
-            onClick={() => setDeckType('katakana')}
-            style={{ padding: '6px 16px', fontSize: '13px' }}
-          >
-            Katakana
-          </button>
-          <button 
-            className={`tab-btn ${deckType === 'all' ? 'active' : ''}`}
-            onClick={() => setDeckType('all')}
-            style={{ padding: '6px 16px', fontSize: '13px' }}
-          >
-            Tất cả
-          </button>
+      {/* Control board with double filters */}
+      <div className="glass" style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '20px', borderRadius: '16px', marginBottom: '24px' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'space-between', alignItems: 'center' }}>
+          
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
+            {/* Set Selector */}
+            <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+              <span style={{ fontSize: '13px', fontWeight: 600 }}>Bộ chữ:</span>
+              <select 
+                value={deckType} 
+                onChange={(e) => setDeckType(e.target.value as any)}
+                style={{ padding: '6px 12px', borderRadius: '8px', background: 'rgba(255,255,255,0.05)', color: 'var(--text-primary)', border: '1px solid var(--card-border)', outline: 'none', fontSize: '13px' }}
+              >
+                <option value="hiragana" style={{ background: 'var(--background)' }}>Hiragana</option>
+                <option value="katakana" style={{ background: 'var(--background)' }}>Katakana</option>
+                <option value="all" style={{ background: 'var(--background)' }}>Cả hai bảng</option>
+              </select>
+            </div>
+
+            {/* Category Selector */}
+            <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+              <span style={{ fontSize: '13px', fontWeight: 600 }}>Phân loại:</span>
+              <select 
+                value={charCategory} 
+                onChange={(e) => setCharCategory(e.target.value as any)}
+                style={{ padding: '6px 12px', borderRadius: '8px', background: 'rgba(255,255,255,0.05)', color: 'var(--text-primary)', border: '1px solid var(--card-border)', outline: 'none', fontSize: '13px' }}
+              >
+                <option value="all" style={{ background: 'var(--background)' }}>Tất cả các chữ</option>
+                <option value="basic" style={{ background: 'var(--background)' }}>Chữ cơ bản (Gojūon)</option>
+                <option value="dakuon" style={{ background: 'var(--background)' }}>Âm đục (Dakuon)</option>
+                <option value="yoon" style={{ background: 'var(--background)' }}>Âm ghép (Yōon)</option>
+              </select>
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', gap: '20px', fontSize: '14px', fontWeight: 600 }}>
+            <span>⏱️ Thời gian: <span style={{ color: 'var(--primary)' }}>{formatTime(time)}</span></span>
+            <span>👣 Lượt mở: <span style={{ color: 'var(--secondary)' }}>{moves}</span></span>
+          </div>
+
         </div>
 
-        <div style={{ display: 'flex', gap: '20px', fontSize: '15px', fontWeight: 600 }}>
-          <span>⏱️ Thời gian: <span style={{ color: 'var(--primary)' }}>{formatTime(time)}</span></span>
-          <span>👣 Lượt mở: <span style={{ color: 'var(--secondary)' }}>{moves}</span></span>
+        <div style={{ fontSize: '12px', color: 'var(--text-secondary)', borderTop: '1px solid var(--card-border)', paddingTop: '8px', display: 'flex', justifyContent: 'space-between' }}>
+          <span>💡 Trò chơi tự động chọn ngẫu nhiên các cặp chữ phù hợp với bảng đấu để bạn luyện phản xạ.</span>
+          <button 
+            onClick={startNewGame} 
+            style={{ background: 'none', border: 'none', color: 'var(--primary)', fontWeight: 'bold', cursor: 'pointer', outline: 'none' }}
+          >
+            Tráo bài mới 🔄
+          </button>
         </div>
       </div>
 
@@ -250,7 +275,7 @@ export const MemoryGame: React.FC = () => {
                 key={card.id}
                 onClick={() => handleCardClick(idx)}
                 style={{
-                  height: '110px',
+                  height: '100px',
                   borderRadius: '12px',
                   cursor: 'pointer',
                   perspective: '1000px',
@@ -299,7 +324,7 @@ export const MemoryGame: React.FC = () => {
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      fontSize: card.type === 'japanese' ? '32px' : '22px',
+                      fontSize: card.text.length > 2 ? '15px' : card.text.length > 1 ? '20px' : '28px',
                       fontFamily: card.type === 'japanese' ? 'var(--font-ja)' : 'var(--font-ui)',
                       fontWeight: 'bold',
                       transform: 'rotateY(180deg)',

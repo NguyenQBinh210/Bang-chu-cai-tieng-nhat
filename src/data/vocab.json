@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "いいえ",
+    "romaji": "iie",
+    "meaning": "Không, không phải"
+  },
+  {
+    "id": 2,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "あい",
+    "romaji": "Ai",
+    "meaning": "Tình yêu"
+  },
+  {
+    "id": 3,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "いい",
+    "romaji": "Ii",
+    "meaning": "Tốt, ngon, được"
+  },
+  {
+    "id": 4,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "いう",
+    "romaji": "Iu",
+    "meaning": "Nói"
+  },
+  {
+    "id": 5,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "あお",
+    "romaji": "Ao",
+    "meaning": "Màu xanh"
+  },
+  {
+    "id": 6,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "あおい",
+    "romaji": "Aoi",
+    "meaning": "Màu xanh da trời"
+  },
+  {
+    "id": 7,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "うえ",
+    "romaji": "Ue",
+    "meaning": "Ở trên, phía trên"
+  },
+  {
+    "id": 8,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "おおい",
+    "romaji": "Ooi",
+    "meaning": "Nhiều"
+  },
+  {
+    "id": 9,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "い",
+    "romaji": "I",
+    "meaning": "Dạ dày"
+  },
+  {
+    "id": 10,
+    "type": "hiragana",
+    "row": "a",
+    "japanese": "いおう",
+    "romaji": "Iou",
+    "meaning": "Lưu huỳnh"
+  },
+  {
+    "id": 11,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "いこう",
+    "romaji": "Ikou",
+    "meaning": "Đi thôi, đi nào"
+  },
+  {
+    "id": 12,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "かい",
+    "romaji": "Kai",
+    "meaning": "Sò, nghêu, lần"
+  },
+  {
+    "id": 13,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "いく",
+    "romaji": "Iku",
+    "meaning": "Đi"
+  },
+  {
+    "id": 14,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "きけ",
+    "romaji": "Kike",
+    "meaning": "Hãy nghe"
+  },
+  {
+    "id": 15,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "かお",
+    "romaji": "Kao",
+    "meaning": "Khuôn mặt"
+  },
+  {
+    "id": 16,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "いき",
+    "romaji": "Iki",
+    "meaning": "Hơi thở, đi"
+  },
+  {
+    "id": 17,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "きく",
+    "romaji": "Kiku",
+    "meaning": "Nghe, hỏi"
+  },
+  {
+    "id": 18,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "きかい",
+    "romaji": "Kikai",
+    "meaning": "Cơ hội, máy móc"
+  },
+  {
+    "id": 19,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "おけ",
+    "romaji": "Oke",
+    "meaning": "Thùng gỗ"
+  },
+  {
+    "id": 20,
+    "type": "hiragana",
+    "row": "ka",
+    "japanese": "ここ",
+    "romaji": "Koko",
+    "meaning": "Ở đây, chỗ này"
+  },
+  {
+    "id": 21,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "あさ",
+    "romaji": "Asa",
+    "meaning": "Buổi sáng"
+  },
+  {
+    "id": 22,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "かさ",
+    "romaji": "Kasa",
+    "meaning": "Cái ô, cái dù"
+  },
+  {
+    "id": 23,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "すし",
+    "romaji": "Sushi",
+    "meaning": "Món sushi"
+  },
+  {
+    "id": 24,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "いし",
+    "romaji": "Ishi",
+    "meaning": "Ý chí, hòn đá, bác sĩ"
+  },
+  {
+    "id": 25,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "いす",
+    "romaji": "Isu",
+    "meaning": "Cái ghế"
+  },
+  {
+    "id": 26,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "あす",
+    "romaji": "Asu",
+    "meaning": "Ngày mai"
+  },
+  {
+    "id": 27,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "あせ",
+    "romaji": "Ase",
+    "meaning": "Mồ hôi"
+  },
+  {
+    "id": 28,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "せかい",
+    "romaji": "Sekai",
+    "meaning": "Thế giới"
+  },
+  {
+    "id": 29,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "そこ",
+    "romaji": "Soko",
+    "meaning": "Chỗ đó"
+  },
+  {
+    "id": 30,
+    "type": "hiragana",
+    "row": "sa",
+    "japanese": "あそこ",
+    "romaji": "Asoko",
+    "meaning": "Chỗ kia"
+  },
+  {
+    "id": 31,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "うけつけ",
+    "romaji": "Uketsuke",
+    "meaning": "Quầy tiếp tân"
+  },
+  {
+    "id": 32,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "とけい",
+    "romaji": "Tokei",
+    "meaning": "Đồng hồ"
+  },
+  {
+    "id": 33,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "うち",
+    "romaji": "Uchi",
+    "meaning": "Nhà, bên trong"
+  },
+  {
+    "id": 34,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "おととい",
+    "romaji": "Ototoi",
+    "meaning": "Hôm kia"
+  },
+  {
+    "id": 35,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "あつい",
+    "romaji": "Atsui",
+    "meaning": "Nóng (thời tiết/cảm giác)"
+  },
+  {
+    "id": 36,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "ちかてつ",
+    "romaji": "Chikatetsu",
+    "meaning": "Tàu điện ngầm"
+  },
+  {
+    "id": 37,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "すてき",
+    "romaji": "Suteki",
+    "meaning": "Tuyệt vời, đẹp đẽ"
+  },
+  {
+    "id": 38,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "ちち",
+    "romaji": "Chichi",
+    "meaning": "Bố (của mình)"
+  },
+  {
+    "id": 39,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "おとうと",
+    "romaji": "Otouto",
+    "meaning": "Em trai"
+  },
+  {
+    "id": 40,
+    "type": "hiragana",
+    "row": "ta",
+    "japanese": "しかた",
+    "romaji": "Shikata",
+    "meaning": "Cách làm, phương pháp"
+  },
+  {
+    "id": 41,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "なに",
+    "romaji": "Nani",
+    "meaning": "Cái gì"
+  },
+  {
+    "id": 42,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "あなた",
+    "romaji": "Anata",
+    "meaning": "Bạn, anh, em"
+  },
+  {
+    "id": 43,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "あのこ",
+    "romaji": "Anoko",
+    "meaning": "Đứa trẻ kia"
+  },
+  {
+    "id": 44,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "きのう",
+    "romaji": "Kinou",
+    "meaning": "Hôm qua"
+  },
+  {
+    "id": 45,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "いぬ",
+    "romaji": "Inu",
+    "meaning": "Con chó"
+  },
+  {
+    "id": 46,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "ねこ",
+    "romaji": "Neko",
+    "meaning": "Con mèo"
+  },
+  {
+    "id": 47,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "さかな",
+    "romaji": "Sakana",
+    "meaning": "Con cá"
+  },
+  {
+    "id": 48,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "あに",
+    "romaji": "Ani",
+    "meaning": "Anh trai"
+  },
+  {
+    "id": 49,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "あね",
+    "romaji": "Ane",
+    "meaning": "Chị gái"
+  },
+  {
+    "id": 50,
+    "type": "hiragana",
+    "row": "na",
+    "japanese": "その",
+    "romaji": "Sono",
+    "meaning": "Đó, cái đó"
+  },
+  {
+    "id": 51,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "あのひと",
+    "romaji": "Anohito",
+    "meaning": "Người kia"
+  },
+  {
+    "id": 52,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "はな",
+    "romaji": "Hana",
+    "meaning": "Bông hoa, cái mũi"
+  },
+  {
+    "id": 53,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "はち",
+    "romaji": "Hachi",
+    "meaning": "Số tám, con ong"
+  },
+  {
+    "id": 54,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "ひとつ",
+    "romaji": "Hitotsu",
+    "meaning": "Một cái (đếm đồ vật)"
+  },
+  {
+    "id": 55,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "ふつか",
+    "romaji": "Futsuka",
+    "meaning": "Ngày mùng 2, hai ngày"
+  },
+  {
+    "id": 56,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "ふつう",
+    "romaji": "Futsuu",
+    "meaning": "Bình thường, thông thường"
+  },
+  {
+    "id": 57,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "ほし",
+    "romaji": "Hoshi",
+    "meaning": "Ngôi sao"
+  },
+  {
+    "id": 58,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "ほかのひと",
+    "romaji": "Hokanohito",
+    "meaning": "Người khác"
+  },
+  {
+    "id": 59,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "はかせ",
+    "romaji": "Hakase",
+    "meaning": "Tiến sĩ"
+  },
+  {
+    "id": 60,
+    "type": "hiragana",
+    "row": "ha",
+    "japanese": "ふく",
+    "romaji": "Fuku",
+    "meaning": "Quần áo, thổi"
+  },
+  {
+    "id": 61,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "いきます",
+    "romaji": "Ikimasu",
+    "meaning": "Đi (kính ngữ)"
+  },
+  {
+    "id": 62,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "いま",
+    "romaji": "Ima",
+    "meaning": "Bây giờ"
+  },
+  {
+    "id": 63,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "みます",
+    "romaji": "Mimasu",
+    "meaning": "Nhìn, xem"
+  },
+  {
+    "id": 64,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "みたい",
+    "romaji": "Mitai",
+    "meaning": "Muốn xem, giống như"
+  },
+  {
+    "id": 65,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "むすこ",
+    "romaji": "Musuko",
+    "meaning": "Con trai"
+  },
+  {
+    "id": 66,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "むすめ",
+    "romaji": "Musume",
+    "meaning": "Con gái"
+  },
+  {
+    "id": 67,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "もも",
+    "romaji": "Momo",
+    "meaning": "Quả đào, đùi"
+  },
+  {
+    "id": 68,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "のみもの",
+    "romaji": "Nomimono",
+    "meaning": "Thức uống, đồ uống"
+  },
+  {
+    "id": 69,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "あめ",
+    "romaji": "Ame",
+    "meaning": "Cơn mưa, kẹo"
+  },
+  {
+    "id": 70,
+    "type": "hiragana",
+    "row": "ma",
+    "japanese": "ほめます",
+    "romaji": "Homemasu",
+    "meaning": "Khen ngợi"
+  },
+  {
+    "id": 71,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "やせます",
+    "romaji": "Yasemasu",
+    "meaning": "Gầy đi, giảm cân"
+  },
+  {
+    "id": 72,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "やすい",
+    "romaji": "Yasui",
+    "meaning": "Rẻ, dễ dàng"
+  },
+  {
+    "id": 73,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "やさい",
+    "romaji": "Yasai",
+    "meaning": "Rau củ"
+  },
+  {
+    "id": 74,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "なやみ",
+    "romaji": "Nayami",
+    "meaning": "Sự phiền muộn, lo lắng"
+  },
+  {
+    "id": 75,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "おゆ",
+    "romaji": "Oyu",
+    "meaning": "Nước nóng"
+  },
+  {
+    "id": 76,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "よめ",
+    "romaji": "Yome",
+    "meaning": "Con dâu, vợ"
+  },
+  {
+    "id": 77,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "よもう",
+    "romaji": "Yomou",
+    "meaning": "Hãy đọc"
+  },
+  {
+    "id": 78,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "よさこい",
+    "romaji": "Yosakoi",
+    "meaning": "Điệu múa Yosakoi"
+  },
+  {
+    "id": 79,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "ゆき",
+    "romaji": "Yuki",
+    "meaning": "Tuyết"
+  },
+  {
+    "id": 80,
+    "type": "hiragana",
+    "row": "ya",
+    "japanese": "まゆ",
+    "romaji": "Mayu",
+    "meaning": "Lông mày, kén tằm"
+  },
+  {
+    "id": 81,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "いくら",
+    "romaji": "Ikura",
+    "meaning": "Bao nhiêu tiền"
+  },
+  {
+    "id": 82,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "しらせ",
+    "romaji": "Shirase",
+    "meaning": "Thông báo, tin tức"
+  },
+  {
+    "id": 83,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "きります",
+    "romaji": "Kirimasu",
+    "meaning": "Cắt"
+  },
+  {
+    "id": 84,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "いります",
+    "romaji": "Irimasu",
+    "meaning": "Cần, đi vào"
+  },
+  {
+    "id": 85,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "かえる",
+    "romaji": "Kaeru",
+    "meaning": "Trở về, con ếch, thay đổi"
+  },
+  {
+    "id": 86,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "おくる",
+    "romaji": "Okuru",
+    "meaning": "Gửi, tiễn, tặng"
+  },
+  {
+    "id": 87,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "れきし",
+    "romaji": "Rekishi",
+    "meaning": "Lịch sử"
+  },
+  {
+    "id": 88,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "しれない",
+    "romaji": "Shirenai",
+    "meaning": "Không thể biết, có lẽ"
+  },
+  {
+    "id": 89,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "つくろう",
+    "romaji": "Tsukurou",
+    "meaning": "Hãy làm, hãy chế tạo"
+  },
+  {
+    "id": 90,
+    "type": "hiragana",
+    "row": "ra",
+    "japanese": "ぜろ",
+    "romaji": "Zero",
+    "meaning": "Số không"
+  },
+  {
+    "id": 91,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "わたし",
+    "romaji": "Watashi",
+    "meaning": "Tôi"
+  },
+  {
+    "id": 92,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "わかい",
+    "romaji": "Wakai",
+    "meaning": "Trẻ trung"
+  },
+  {
+    "id": 93,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "ほん",
+    "romaji": "Hon",
+    "meaning": "Quyển sách"
+  },
+  {
+    "id": 94,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "にほん",
+    "romaji": "Nihon",
+    "meaning": "Nhật Bản"
+  },
+  {
+    "id": 95,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "よわい",
+    "romaji": "Yowai",
+    "meaning": "Yếu ớt"
+  },
+  {
+    "id": 96,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "やかん",
+    "romaji": "Yakan",
+    "meaning": "Ấm đun nước"
+  },
+  {
+    "id": 97,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "いけん",
+    "romaji": "Iken",
+    "meaning": "Ý kiến"
+  },
+  {
+    "id": 98,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "みなさん",
+    "romaji": "Minasan",
+    "meaning": "Mọi người"
+  },
+  {
+    "id": 99,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "ほんをよむ",
+    "romaji": "Hon wo yomu",
+    "meaning": "Đọc sách"
+  },
+  {
+    "id": 100,
+    "type": "hiragana",
+    "row": "wa",
+    "japanese": "さけをのむ",
+    "romaji": "Sake wo nomu",
+    "meaning": "Uống rượu"
+  },
+  {
+    "id": 101,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "イイエ",
+    "romaji": "iie",
+    "meaning": "Không, không phải"
+  },
+  {
+    "id": 102,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "アイ",
+    "romaji": "Ai",
+    "meaning": "Tình yêu, Mắt (eye)"
+  },
+  {
+    "id": 103,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "アー",
+    "romaji": "a-",
+    "meaning": "Âm đọc A kéo dài"
+  },
+  {
+    "id": 104,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "イウ",
+    "romaji": "Iu",
+    "meaning": "Nói"
+  },
+  {
+    "id": 105,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "アオ",
+    "romaji": "Ao",
+    "meaning": "Màu xanh"
+  },
+  {
+    "id": 106,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "アオイ",
+    "romaji": "Aoi",
+    "meaning": "Màu xanh da trời"
+  },
+  {
+    "id": 107,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "ウエ",
+    "romaji": "Ue",
+    "meaning": "Ở trên"
+  },
+  {
+    "id": 108,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "オーイ",
+    "romaji": "O-i",
+    "meaning": "Này, ơi (gọi)"
+  },
+  {
+    "id": 109,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "オ",
+    "romaji": "O",
+    "meaning": "Âm đọc O"
+  },
+  {
+    "id": 110,
+    "type": "katakana",
+    "row": "a",
+    "japanese": "イオー",
+    "romaji": "io-",
+    "meaning": "I-o (âm đọc)"
+  },
+  {
+    "id": 111,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "イコー",
+    "romaji": "Iko-",
+    "meaning": "Đi thôi, đi nào"
+  },
+  {
+    "id": 112,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "カイ",
+    "romaji": "Kai",
+    "meaning": "Sò, nghêu, lần"
+  },
+  {
+    "id": 113,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "イク",
+    "romaji": "Iku",
+    "meaning": "Đi"
+  },
+  {
+    "id": 114,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "キケ",
+    "romaji": "Kike",
+    "meaning": "Hãy nghe"
+  },
+  {
+    "id": 115,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "カオ",
+    "romaji": "Kao",
+    "meaning": "Khuôn mặt"
+  },
+  {
+    "id": 116,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "イキ",
+    "romaji": "Iki",
+    "meaning": "Hơi thở"
+  },
+  {
+    "id": 117,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "キク",
+    "romaji": "Kiku",
+    "meaning": "Nghe, hỏi"
+  },
+  {
+    "id": 118,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "キカイ",
+    "romaji": "Kikai",
+    "meaning": "Cơ hội, máy móc"
+  },
+  {
+    "id": 119,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "オケ",
+    "romaji": "Oke",
+    "meaning": "Thùng gỗ"
+  },
+  {
+    "id": 120,
+    "type": "katakana",
+    "row": "ka",
+    "japanese": "イカ",
+    "romaji": "Koko",
+    "meaning": "Con mực"
+  },
+  {
+    "id": 121,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "アサ",
+    "romaji": "Asa",
+    "meaning": "Buổi sáng"
+  },
+  {
+    "id": 122,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "カサ",
+    "romaji": "Kasa",
+    "meaning": "Cái ô, cái dù"
+  },
+  {
+    "id": 123,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "スシ",
+    "romaji": "Sushi",
+    "meaning": "Món sushi"
+  },
+  {
+    "id": 124,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "イシ",
+    "romaji": "Ishi",
+    "meaning": "Bác sĩ, hòn đá"
+  },
+  {
+    "id": 125,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "イス",
+    "romaji": "Isu",
+    "meaning": "Cái ghế"
+  },
+  {
+    "id": 126,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "アス",
+    "romaji": "Asu",
+    "meaning": "Ngày mai"
+  },
+  {
+    "id": 127,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "アセ",
+    "romaji": "Ase",
+    "meaning": "Mồ hôi"
+  },
+  {
+    "id": 128,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "セキ",
+    "romaji": "Sekai",
+    "meaning": "Ho, ghế ngồi"
+  },
+  {
+    "id": 129,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "クセ",
+    "romaji": "Soko",
+    "meaning": "Thói quen"
+  },
+  {
+    "id": 130,
+    "type": "katakana",
+    "row": "sa",
+    "japanese": "ウソ",
+    "romaji": "Asoko",
+    "meaning": "Lời nói dối"
+  },
+  {
+    "id": 131,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "ウケツケ",
+    "romaji": "uketsuke",
+    "meaning": "Quầy tiếp tân"
+  },
+  {
+    "id": 132,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "トケイ",
+    "romaji": "Tokei",
+    "meaning": "Đồng hồ"
+  },
+  {
+    "id": 133,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "ウチ",
+    "romaji": "Uchi",
+    "meaning": "Nhà"
+  },
+  {
+    "id": 134,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "オトトイ",
+    "romaji": "Ototoi",
+    "meaning": "Hôm kia"
+  },
+  {
+    "id": 135,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "アツイ",
+    "romaji": "Atsui",
+    "meaning": "Nóng"
+  },
+  {
+    "id": 136,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "チカテツ",
+    "romaji": "chikatetsu",
+    "meaning": "Tàu điện ngầm"
+  },
+  {
+    "id": 137,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "ステキ",
+    "romaji": "Suteki",
+    "meaning": "Tuyệt vời, đẹp đẽ"
+  },
+  {
+    "id": 138,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "チチ",
+    "romaji": "Chichi",
+    "meaning": "Bố (của mình)"
+  },
+  {
+    "id": 139,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "イト",
+    "romaji": "Otouto",
+    "meaning": "Sợi chỉ"
+  },
+  {
+    "id": 140,
+    "type": "katakana",
+    "row": "ta",
+    "japanese": "トーカ",
+    "romaji": "shikata",
+    "meaning": "Ngày mùng 10"
+  },
+  {
+    "id": 141,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "ナニ",
+    "romaji": "Nani",
+    "meaning": "Cái gì"
+  },
+  {
+    "id": 142,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "アナタ",
+    "romaji": "Anata",
+    "meaning": "Bạn, anh, em"
+  },
+  {
+    "id": 143,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "アノコ",
+    "romaji": "Anoko",
+    "meaning": "Đứa trẻ kia"
+  },
+  {
+    "id": 144,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "キノウ",
+    "romaji": "Kinou",
+    "meaning": "Hôm qua"
+  },
+  {
+    "id": 145,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "イヌ",
+    "romaji": "Inu",
+    "meaning": "Con chó"
+  },
+  {
+    "id": 146,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "ネコ",
+    "romaji": "Neko",
+    "meaning": "Con mèo"
+  },
+  {
+    "id": 147,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "サカナ",
+    "romaji": "Sakana",
+    "meaning": "Con cá"
+  },
+  {
+    "id": 148,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "アニ",
+    "romaji": "Ani",
+    "meaning": "Anh trai"
+  },
+  {
+    "id": 149,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "イヌ",
+    "romaji": "Ane",
+    "meaning": "Con chó (trong bài tập)"
+  },
+  {
+    "id": 150,
+    "type": "katakana",
+    "row": "na",
+    "japanese": "ソノ",
+    "romaji": "Sono",
+    "meaning": "Đó, cái đó"
+  },
+  {
+    "id": 151,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "アノヒト",
+    "romaji": "Anohito",
+    "meaning": "Người kia"
+  },
+  {
+    "id": 152,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "ハナ",
+    "romaji": "Hana",
+    "meaning": "Bông hoa, cái mũi"
+  },
+  {
+    "id": 153,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "ハチ",
+    "romaji": "Hachi",
+    "meaning": "Số tám, con ong"
+  },
+  {
+    "id": 154,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "ヒトツ",
+    "romaji": "Hitotsu",
+    "meaning": "Một cái"
+  },
+  {
+    "id": 155,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "フツカ",
+    "romaji": "Futsuka",
+    "meaning": "Ngày mùng 2"
+  },
+  {
+    "id": 156,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "フツウ",
+    "romaji": "Futsuu",
+    "meaning": "Bình thường"
+  },
+  {
+    "id": 157,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "ホシ",
+    "romaji": "Hoshi",
+    "meaning": "Ngôi sao"
+  },
+  {
+    "id": 158,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "ホーホー",
+    "romaji": "hokanohito",
+    "meaning": "Tiếng cú kêu"
+  },
+  {
+    "id": 159,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "ヒコーキ",
+    "romaji": "Hakase",
+    "meaning": "Máy bay"
+  },
+  {
+    "id": 160,
+    "type": "katakana",
+    "row": "ha",
+    "japanese": "ハハ",
+    "romaji": "Fuku",
+    "meaning": "Mẹ (của mình)"
+  },
+  {
+    "id": 161,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "イキマス",
+    "romaji": "Ikimasu",
+    "meaning": "Đi"
+  },
+  {
+    "id": 162,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "イマ",
+    "romaji": "Ima",
+    "meaning": "Bây giờ"
+  },
+  {
+    "id": 163,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "ミマス",
+    "romaji": "Mimasu",
+    "meaning": "Nhìn, xem"
+  },
+  {
+    "id": 164,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "ミタイ",
+    "romaji": "Mitai",
+    "meaning": "Muốn xem, giống như"
+  },
+  {
+    "id": 165,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "ムスコ",
+    "romaji": "Musuko",
+    "meaning": "Con trai"
+  },
+  {
+    "id": 166,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "ムスメ",
+    "romaji": "Musume",
+    "meaning": "Con gái"
+  },
+  {
+    "id": 167,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "モモ",
+    "romaji": "Momo",
+    "meaning": "Quả đào"
+  },
+  {
+    "id": 168,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "ノミモノ",
+    "romaji": "nomimono",
+    "meaning": "Đồ uống"
+  },
+  {
+    "id": 169,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "アメ",
+    "romaji": "Ame",
+    "meaning": "Cơn mưa, kẹo"
+  },
+  {
+    "id": 170,
+    "type": "katakana",
+    "row": "ma",
+    "japanese": "ノメ",
+    "romaji": "homemasu",
+    "meaning": "Hãy uống (trong bài tập)"
+  },
+  {
+    "id": 171,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "ヤセます",
+    "romaji": "yasemasu",
+    "meaning": "Gầy đi"
+  },
+  {
+    "id": 172,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "ヤスイ",
+    "romaji": "Yasui",
+    "meaning": "Rẻ"
+  },
+  {
+    "id": 173,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "ヤサイ",
+    "romaji": "Yasai",
+    "meaning": "Rau củ"
+  },
+  {
+    "id": 174,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "ナヤミ",
+    "romaji": "nayami",
+    "meaning": "Sự lo lắng"
+  },
+  {
+    "id": 175,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "オゆ",
+    "romaji": "Oyu",
+    "meaning": "Nước nóng"
+  },
+  {
+    "id": 176,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "ヨメ",
+    "romaji": "Yome",
+    "meaning": "Con dâu, vợ"
+  },
+  {
+    "id": 177,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "ヨモウ",
+    "romaji": "yomou",
+    "meaning": "Hãy đọc"
+  },
+  {
+    "id": 178,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "ヨサコイ",
+    "romaji": "yosakoi",
+    "meaning": "Điệu múa Yosakoi"
+  },
+  {
+    "id": 179,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "ユキ",
+    "romaji": "Yuki",
+    "meaning": "Tuyết"
+  },
+  {
+    "id": 180,
+    "type": "katakana",
+    "row": "ya",
+    "japanese": "マユ",
+    "romaji": "Mayu",
+    "meaning": "Lông mày"
+  },
+  {
+    "id": 181,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "テレビ",
+    "romaji": "Terebi",
+    "meaning": "Tivi (television)"
+  },
+  {
+    "id": 182,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "テーブル",
+    "romaji": "Teburu",
+    "meaning": "Cái bàn"
+  },
+  {
+    "id": 183,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "アイスクリーム",
+    "romaji": "aisukuri-mu",
+    "meaning": "Kem (ice cream)"
+  },
+  {
+    "id": 184,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "クジラ",
+    "romaji": "Kujira",
+    "meaning": "Cá voi"
+  },
+  {
+    "id": 185,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "ルール",
+    "romaji": "Ru-ru",
+    "meaning": "Quy tắc (rule)"
+  },
+  {
+    "id": 186,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "ベルト",
+    "romaji": "Beruto",
+    "meaning": "Thắt lưng (belt)"
+  },
+  {
+    "id": 187,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "スリッパ",
+    "romaji": "Surippa",
+    "meaning": "Dép đi trong nhà"
+  },
+  {
+    "id": 188,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "イラク",
+    "romaji": "Irakku",
+    "meaning": "Nước Iraq"
+  },
+  {
+    "id": 189,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "イギリス",
+    "romaji": "Igirisu",
+    "meaning": "Nước Anh"
+  },
+  {
+    "id": 190,
+    "type": "katakana",
+    "row": "ra",
+    "japanese": "カレーライス",
+    "romaji": "Kare-raisu",
+    "meaning": "Cơm cà ri"
+  },
+  {
+    "id": 191,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "ワタシ",
+    "romaji": "Watashi",
+    "meaning": "Tôi"
+  },
+  {
+    "id": 192,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "ワカイ",
+    "romaji": "Wakai",
+    "meaning": "Trẻ trung"
+  },
+  {
+    "id": 193,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "ホン",
+    "romaji": "Hon",
+    "meaning": "Quyển sách"
+  },
+  {
+    "id": 194,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "ニホン",
+    "romaji": "Nihon",
+    "meaning": "Nhật Bản"
+  },
+  {
+    "id": 195,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "ヨワイ",
+    "romaji": "Yowai",
+    "meaning": "Yếu ớt"
+  },
+  {
+    "id": 196,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "ヤカン",
+    "romaji": "Yakan",
+    "meaning": "Ấm đun nước"
+  },
+  {
+    "id": 197,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "イケン",
+    "romaji": "Iken",
+    "meaning": "Ý kiến"
+  },
+  {
+    "id": 198,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "ミナサン",
+    "romaji": "Minasan",
+    "meaning": "Mọi người"
+  },
+  {
+    "id": 199,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "ホンヲヨム",
+    "romaji": "Hon wo yomu",
+    "meaning": "Đọc sách"
+  },
+  {
+    "id": 200,
+    "type": "katakana",
+    "row": "wa",
+    "japanese": "サケヲノム",
+    "romaji": "Sake wo nomu",
+    "meaning": "Uống rượu"
+  }
+]
