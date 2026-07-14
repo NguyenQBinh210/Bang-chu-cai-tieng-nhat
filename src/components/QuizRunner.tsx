@@ -80,35 +80,25 @@ const generate50Questions = (lesson: Lesson): QuizQuestion[] => {
     });
   });
 
-  // 2. Vocabulary Questions (Meaning, Romaji, Japanese)
+  // 2. Vocabulary Questions (Romaji <-> Japanese, no Vietnamese translations)
   vocabList.forEach(v => {
-    // Japanese -> Vietnamese Meaning
-    const incorrectMeanings = getIncorrectOptions(v.meaning, vocabDataRaw.map((item: any) => item.meaning));
-    const options1 = [v.meaning, ...incorrectMeanings].sort(() => Math.random() - 0.5);
+    // Japanese Word -> Romaji Word
+    const incorrectRomajis = getIncorrectOptions(v.romaji, vocabList.map(item => item.romaji));
+    const options1 = [v.romaji, ...incorrectRomajis].sort(() => Math.random() - 0.5);
     addQuestion({
       type: 'select-romaji',
-      question: `Từ '${v.kana}' (${v.romaji}) nghĩa tiếng Việt là gì?`,
+      question: `Từ viết bằng chữ Nhật '${v.kana}' phát âm Romaji tương ứng là gì?`,
       options: options1,
-      correctAnswer: v.meaning
+      correctAnswer: v.romaji
     });
 
-    // Vietnamese Meaning -> Japanese
+    // Romaji Word -> Japanese Word
     const incorrectKanas = getIncorrectOptions(v.kana, vocabList.map(item => item.kana));
     const options2 = [v.kana, ...incorrectKanas].sort(() => Math.random() - 0.5);
     addQuestion({
       type: 'select-character',
-      question: `Từ nào sau đây viết bằng chữ Nhật có nghĩa là '${v.meaning}'?`,
-      options: options2,
-      correctAnswer: v.kana
-    });
-
-    // Romaji -> Japanese
-    const incorrectKanas2 = getIncorrectOptions(v.kana, vocabList.map(item => item.kana));
-    const options3 = [v.kana, ...incorrectKanas2].sort(() => Math.random() - 0.5);
-    addQuestion({
-      type: 'select-character',
       question: `Từ '${v.romaji}' viết bằng chữ Hiragana/Katakana tương ứng là gì?`,
-      options: options3,
+      options: options2,
       correctAnswer: v.kana
     });
   });
@@ -116,18 +106,25 @@ const generate50Questions = (lesson: Lesson): QuizQuestion[] => {
   // 3. Character Combination & Spelling Questions (Ghép chữ thành từ)
   const multiCharWords = vocabList.filter(v => v.kana.length >= 2);
   multiCharWords.forEach(v => {
-    // "Ghép 'A' + 'B' = từ gì?"
+    // "Ghép 'A' + 'B' = Từ Nhật gì?"
     const charSpelling = v.kana.split('').map(char => `'${char}'`).join(' + ');
-    const incorrectCombinations = getIncorrectOptions(
-      `${v.kana} (${v.meaning})`,
-      vocabList.filter(item => item.kana !== v.kana).map(item => `${item.kana} (${item.meaning})`)
-    );
-    const options1 = [`${v.kana} (${v.meaning})`, ...incorrectCombinations].sort(() => Math.random() - 0.5);
+    const incorrectKanas = getIncorrectOptions(v.kana, vocabList.filter(item => item.kana !== v.kana).map(item => item.kana));
+    const options1 = [v.kana, ...incorrectKanas].sort(() => Math.random() - 0.5);
+    addQuestion({
+      type: 'select-character',
+      question: `Ghép các ký tự sau: ${charSpelling} sẽ tạo thành chữ Nhật nào?`,
+      options: options1,
+      correctAnswer: v.kana
+    });
+
+    // "Ghép 'A' + 'B' = Romaji gì?"
+    const incorrectRomajis = getIncorrectOptions(v.romaji, vocabList.filter(item => item.romaji !== v.romaji).map(item => item.romaji));
+    const options2 = [v.romaji, ...incorrectRomajis].sort(() => Math.random() - 0.5);
     addQuestion({
       type: 'select-romaji',
-      question: `Ghép các ký tự sau: ${charSpelling} sẽ tạo thành từ nào có nghĩa?`,
-      options: options1,
-      correctAnswer: `${v.kana} (${v.meaning})`
+      question: `Ghép các ký tự sau: ${charSpelling} phát âm Romaji tương ứng là gì?`,
+      options: options2,
+      correctAnswer: v.romaji
     });
 
     // "Chọn ký tự khuyết: 'A' + [?] = 'AB'"
@@ -135,11 +132,11 @@ const generate50Questions = (lesson: Lesson): QuizQuestion[] => {
       const char1 = v.kana[0];
       const char2 = v.kana[1];
       const incorrectMissing = getIncorrectOptions(char2, chars.map(item => item.japanese));
-      const options2 = [char2, ...incorrectMissing].sort(() => Math.random() - 0.5);
+      const options3 = [char2, ...incorrectMissing].sort(() => Math.random() - 0.5);
       addQuestion({
         type: 'select-character',
-        question: `Chọn ký tự còn thiếu vào chỗ trống [ ? ] để tạo thành từ '${v.kana}' (${v.meaning}): '${char1}' + [ ? ]`,
-        options: options2,
+        question: `Chọn ký tự còn thiếu vào chỗ trống [ ? ] để tạo thành từ '${v.kana}' (phát âm: ${v.romaji}): '${char1}' + [ ? ]`,
+        options: options3,
         correctAnswer: char2
       });
     }

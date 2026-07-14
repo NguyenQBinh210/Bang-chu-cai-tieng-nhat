@@ -1,0 +1,352 @@
+[
+  {
+    "id": "n5_q1",
+    "section": "vocabulary",
+    "type": "kanji-to-hiragana",
+    "question": "昨日、**友だち**に会いました。",
+    "options": [
+      "ともだち",
+      "ゆうだち",
+      "ともだつ",
+      "ゆうだつ"
+    ],
+    "correctAnswer": "ともだち",
+    "explanation": "Chữ Hán 「友」 (Hữu) đứng một mình hoặc ghép trong 「友だち」 đọc là 「ともだち」 (bạn bè)."
+  },
+  {
+    "id": "n5_q2",
+    "section": "vocabulary",
+    "type": "kanji-to-hiragana",
+    "question": "この**川**はとても長いです。",
+    "options": [
+      "かわ",
+      "やま",
+      "うみ",
+      "いけ"
+    ],
+    "correctAnswer": "かわ",
+    "explanation": "Chữ Hán 「川」 (Xuyên - sông) đọc âm ôn là 「かわ」 (kawa)."
+  },
+  {
+    "id": "n5_q3",
+    "section": "vocabulary",
+    "type": "kanji-to-hiragana",
+    "question": "あそこに**男**の人がいます。",
+    "options": [
+      "おとこ",
+      "おんな",
+      "ひと",
+      "こ"
+    ],
+    "correctAnswer": "おとこ",
+    "explanation": "Chữ Hán 「男」 (Nam - con trai) đọc là 「おとこ」 (otoko). 「男の人」 đọc là 「おとこのひと」."
+  },
+  {
+    "id": "n5_q4",
+    "section": "vocabulary",
+    "type": "kanji-to-hiragana",
+    "question": "日本語の**勉強**は楽しいです。",
+    "options": [
+      "べんきょう",
+      "べんきょ",
+      "ぺんきょう",
+      "べんきよう"
+    ],
+    "correctAnswer": "べんきょう",
+    "explanation": "Chữ Hán 「勉強」 (Miễn cưỡng - học tập) đọc chuẩn là 「べんきょう」 (benkyou)."
+  },
+  {
+    "id": "n5_q5",
+    "section": "vocabulary",
+    "type": "hiragana-to-kanji",
+    "question": "わたしのへやは**ひろい**です。",
+    "options": [
+      "広い",
+      "近い",
+      "古い",
+      "新しい"
+    ],
+    "correctAnswer": "広い",
+    "explanation": "Tính từ 「ひろい」 (rộng rãi) tương ứng với chữ Hán 「広い」 (Quảng)."
+  },
+  {
+    "id": "n5_q6",
+    "section": "vocabulary",
+    "type": "hiragana-to-kanji",
+    "question": "きょうは**あめ**がふっています。",
+    "options": [
+      "雨",
+      "雪",
+      "風",
+      "雲"
+    ],
+    "correctAnswer": "雨",
+    "explanation": "Danh từ 「あめ」 (mưa) tương ứng với chữ Hán 「雨」 (Vũ)."
+  },
+  {
+    "id": "n5_q7",
+    "section": "vocabulary",
+    "type": "contextual",
+    "question": "朝起きて、顔を＿＿＿。",
+    "options": [
+      "あらいました",
+      "あけました",
+      "あびました",
+      "みがきました"
+    ],
+    "correctAnswer": "あらいました",
+    "explanation": "顔を洗う (かおをあらう): rửa mặt. Thì quá khứ lịch sự là 「あらいました」."
+  },
+  {
+    "id": "n5_q8",
+    "section": "vocabulary",
+    "type": "contextual",
+    "question": "スープが冷たいですから、＿＿＿ください。",
+    "options": [
+      "あたためて",
+      "つめたくして",
+      "いれて",
+      "つけて"
+    ],
+    "correctAnswer": "あたためて",
+    "explanation": "スープが冷たい (súp bị nguội), do đó cần 「温めてください」 (あたためてください - hãy làm nóng/hâm nóng lên)."
+  },
+  {
+    "id": "n5_q9",
+    "section": "vocabulary",
+    "type": "contextual",
+    "question": "エレベーターに乗るより、＿＿＿を使ったほうが体にいいです。",
+    "options": [
+      "かいだん",
+      "きっぷ",
+      "タクシー",
+      "テーブル"
+    ],
+    "correctAnswer": "かいだん",
+    "explanation": "Dùng 「かいだん」 (cầu thang bộ) thay vì đi thang máy (エレベーター) tốt cho sức khỏe hơn."
+  },
+  {
+    "id": "n5_q10",
+    "section": "vocabulary",
+    "type": "paraphrase",
+    "question": "木村さんは**お姉さん**が二人います。",
+    "options": [
+      "あねが二人います",
+      "いもうとが二人います",
+      "おとうとが二人います",
+      "あにが二人います"
+    ],
+    "correctAnswer": "あねが二人います",
+    "explanation": "「お姉さん」 (chị gái người khác) đồng nghĩa với kính từ xưng hô của bản thân là 「あね」 (chị tôi)."
+  },
+  {
+    "id": "n5_q11",
+    "section": "grammar",
+    "type": "particle",
+    "question": "図書館＿＿＿本を借りました。",
+    "options": [
+      "で",
+      "に",
+      "を",
+      "へ"
+    ],
+    "correctAnswer": "で",
+    "explanation": "Trợ từ 「で」 chỉ nơi chốn diễn ra hành động mượn sách (借りる)."
+  },
+  {
+    "id": "n5_q12",
+    "section": "grammar",
+    "type": "particle",
+    "question": "あしたは九時＿＿＿学校へ来てください。",
+    "options": [
+      "までに",
+      "まで",
+      "から",
+      "だけ"
+    ],
+    "correctAnswer": "までに",
+    "explanation": "「までに」 chỉ thời hạn chót: hãy đến trường trước/trễ nhất là 9 giờ ngày mai."
+  },
+  {
+    "id": "n5_q13",
+    "section": "grammar",
+    "type": "particle",
+    "question": "李さんは日本語＿＿＿話すことができます。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "は"
+    ],
+    "correctAnswer": "が",
+    "explanation": "Cấu trúc khả năng 「〜ことができる」: Danh từ + が + 話すことができる (Có thể nói được tiếng Nhật)."
+  },
+  {
+    "id": "n5_q14",
+    "section": "grammar",
+    "type": "conjugation",
+    "question": "寒いですから、窓を＿＿＿ください。",
+    "options": [
+      "しめて",
+      "しめないで",
+      "しめって",
+      "しめましょう"
+    ],
+    "correctAnswer": "しめて",
+    "explanation": "Vì lạnh (寒いですから) nên xin hãy đóng cửa lại: 窓を閉めてください (しめてください)."
+  },
+  {
+    "id": "n5_q15",
+    "section": "grammar",
+    "type": "conjugation",
+    "question": "きのうは宿題をしてから、＿＿＿。",
+    "options": [
+      "ねました",
+      "ねます",
+      "ねて",
+      "ねよう"
+    ],
+    "correctAnswer": "ねました",
+    "explanation": "Vế đầu có trạng từ thời gian 「きのう」 (hôm qua) chỉ quá khứ, nên động từ cuối câu phải chia ở quá khứ: 「ねました」 (đã đi ngủ)."
+  },
+  {
+    "id": "n5_q16",
+    "section": "grammar",
+    "type": "star",
+    "question": "Câu hỏi dấu sao: Sắp xếp các từ dưới đây để tạo thành câu đúng và tìm từ ở vị trí dấu sao [ * ]:\n\n「わたしは　＿＿＿　＿＿＿　＿*＿　＿＿＿　読みます。」",
+    "options": [
+      "本を (1)",
+      "毎日 (2)",
+      "寝る (3)",
+      "前に (4)"
+    ],
+    "correctAnswer": "前に (4)",
+    "explanation": "Thứ tự sắp xếp đúng là: 毎日 (2) -> 寝る (3) -> 前に (4) -> 本を (1). Tạo thành câu: 「わたしは毎日寝る前に本を読みます。」 (Tôi đọc sách mỗi ngày trước khi ngủ). Vị trí số 3 (*) là 「前に」 (4)."
+  },
+  {
+    "id": "n5_q17",
+    "section": "grammar",
+    "type": "star",
+    "question": "Câu hỏi dấu sao: Sắp xếp các từ dưới đây để tạo thành câu đúng và tìm từ ở vị trí dấu sao [ * ]:\n\n「きのう　＿＿＿　＿＿＿　＿*＿　＿＿＿　おもしろかったです。」",
+    "options": [
+      "映画は (1)",
+      "見た (2)",
+      "友達と (3)",
+      "一緒に (4)"
+    ],
+    "correctAnswer": "見た (2)",
+    "explanation": "Thứ tự sắp xếp đúng là: 友達と (3) -> 一緒に (4) -> 見た (2) -> 映画は (1). Tạo thành câu: 「きのう友達と一緒に見た映画はおもしろかったです。」 (Bộ phim tôi xem cùng bạn hôm qua rất thú vị). Vị trí số 3 (*) là 「見た」 (2)."
+  },
+  {
+    "id": "n5_q18",
+    "section": "grammar",
+    "type": "form",
+    "question": "「日本料理を食べたこと＿＿＿ありません。」",
+    "options": [
+      "が",
+      "は",
+      "を",
+      "も"
+    ],
+    "correctAnswer": "が",
+    "explanation": "Mẫu câu chỉ kinh nghiệm: Động từ thể た + ことが + ある/ない (Đã từng/Chưa từng làm gì). Đáp án đúng là 「が」."
+  },
+  {
+    "id": "n5_q19",
+    "section": "grammar",
+    "type": "form",
+    "question": "「あの人は英語がとても上手＿＿＿。」",
+    "options": [
+      "ですね",
+      "だね",
+      "よな",
+      "そう"
+    ],
+    "correctAnswer": "ですね",
+    "explanation": "Dùng thể lịch sự 「上手ですね」 (Giỏi quá nhỉ) để khen ngợi khả năng tiếng Anh của người kia."
+  },
+  {
+    "id": "n5_q20",
+    "section": "grammar",
+    "type": "form",
+    "question": "「天気がいいから、公園へ散歩に＿＿＿。」",
+    "options": [
+      "行きましょう",
+      "行きます",
+      "行って",
+      "行かない"
+    ],
+    "correctAnswer": "行きましょう",
+    "explanation": "Cấu trúc rủ rê hành động lịch sự 「〜ましょう」: Vì thời tiết đẹp nên chúng ta hãy đi dạo công viên nào (行きましょう)."
+  },
+  {
+    "id": "n5_q21",
+    "section": "reading",
+    "type": "comprehension",
+    "question": "Đọc đoạn thư sau và trả lời câu hỏi:\n\nこれはマイクさんの手紙です。\n『李さん、こんにちは。あした一緒に映画を見に行きませんか。駅の近くの映画館で、午後2時から始まります。駅の改札口で1時45分に会いましょう。待っています。』\n\n**Hỏi: マイクさんと李さんはあした何時どこで会いますか。**",
+    "options": [
+      "1時45分に駅の改札口",
+      "2時に映画館",
+      "1時45分に映画館",
+      "2時に駅의改札口"
+    ],
+    "correctAnswer": "1時45分に駅の改札口",
+    "explanation": "Trong thư viết rõ: 「駅の改札口で1時45分に会いましょう」 (Hãy gặp nhau lúc 1 giờ 45 phút ở cửa soát vé nhà ga)."
+  },
+  {
+    "id": "n5_q22",
+    "section": "reading",
+    "type": "comprehension",
+    "question": "Đọc đoạn văn sau và trả lời câu hỏi:\n\nわたしの国はベトナムです。今は日本の東京に住んでいます。東京はとてもにぎやかで、きれいな町です。でも、冬はとても寒いです。わたしの国の冬はあまり寒くないですから、日本の冬は少し大変です。でも、雪が見たいですから、冬も好きです。\n\n**Hỏi: この人はどうして日本の冬が好きですか。**",
+    "options": [
+      "雪が見たいからです。",
+      "ベトナムの冬より寒いからです。",
+      "東京がにぎやかだからです。",
+      "大変なことが好きだからです。"
+    ],
+    "correctAnswer": "雪が見たいからです。",
+    "explanation": "Đoạn cuối viết: 「でも、雪が見たいですから、冬も好きです」 (Nhưng vì tôi muốn ngắm tuyết rơi nên tôi cũng thích mùa đông)."
+  },
+  {
+    "id": "n5_q23",
+    "section": "reading",
+    "type": "comprehension",
+    "question": "Đọc email sau và trả lời câu hỏi:\n\n木村先生、こんにちは。今日、熱がありますから、学校へ行くことができません。すみません。あしたは学校へ行けると思います。今日の宿題はメールで送ってください。よろしくお願いします。　ー　山田太郎\n\n**Hỏi: 山田さんはどうして今日学校へ行きませんか。**",
+    "options": [
+      "病気（熱がある）だからです。",
+      "宿題が多いからです。",
+      "メールを送るからです。",
+      "木村先生に会いたくないからです。"
+    ],
+    "correctAnswer": "病気（熱がある）だからです。",
+    "explanation": "Trong thư viết: 「今日、熱がありますから、学校へ行くことができません」 (Hôm nay vì bị sốt nên em không thể đến trường được)."
+  },
+  {
+    "id": "n5_q24",
+    "section": "reading",
+    "type": "comprehension",
+    "question": "Đọc bảng thông báo sau và trả lời câu hỏi:\n\n【留学生センターのお知らせ】\n漢字（かんじ）のクラスは毎週火曜日と木曜日の午後3時から4時半までです。\n会話（かいわ）のクラスは毎週水曜日の午前10時から11時半までです。\nお金はどちらも1回500円です。クラスに来る前に事務所で払ってください。\n\n**Hỏi: 漢字のクラスに行きたい人は、いつクラスがありますか。**",
+    "options": [
+      "火曜日と木曜日の午後3時〜4時半",
+      "水曜日の午前10時〜11時半",
+      "毎日午後3時",
+      "木曜日の午前10時"
+    ],
+    "correctAnswer": "火曜日と木曜日の午後3時〜4時半",
+    "explanation": "Thông báo viết rõ: Lớp chữ Hán (漢字のクラス) diễn ra vào mỗi thứ Ba (火曜日) và thứ Năm (木曜日) lúc chiều 3 giờ đến 4 giờ rưỡi."
+  },
+  {
+    "id": "n5_q25",
+    "section": "reading",
+    "type": "comprehension",
+    "question": "Dựa trên bảng thông báo ở câu trước:\n\n【留学生センターのお知らせ】\n漢字のクラスは毎週火曜日と木曜日の午後3時から4時半までです。\n会話のクラスは毎週水曜日の午前10時から11時半までです。\nお金はどちらも1回500円です。クラスに来る前に事務所で払ってください。\n\n**Hỏi: クラスの授業料（お金）はどうしますか。**",
+    "options": [
+      "クラスが始まる前に事務所で払う",
+      "クラスが終わってから先生に払う",
+      "1か月分をまとめて払う",
+      "払わなくてもいい"
+    ],
+    "correctAnswer": "クラスが始まる前に事務所で払う",
+    "explanation": "Thông báo viết: 「クラスに来る前に事務所で払ってください」 (Xin hãy đóng tiền học tại văn phòng trước khi vào lớp)."
+  }
+]

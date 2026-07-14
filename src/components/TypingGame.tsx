@@ -15,7 +15,7 @@ const typingData = typingDataRaw as TypingItem[];
 
 export const TypingGame: React.FC = () => {
   const [filterAlphabet, setFilterAlphabet] = useState<'all' | 'hiragana' | 'katakana'>('all');
-  const [filterRow, setFilterRow] = useState<string>('all');
+  const [selectedRows, setSelectedRows] = useState<string[]>(['all']);
   const [gameStarted, setGameStarted] = useState(false);
   const [gameFinished, setGameFinished] = useState(false);
   
@@ -88,14 +88,31 @@ export const TypingGame: React.FC = () => {
     if (filterAlphabet !== 'all') {
       list = list.filter(item => item.alphabet === filterAlphabet);
     }
-    if (filterRow !== 'all') {
-      list = list.filter(item => item.row === filterRow);
+    if (!selectedRows.includes('all') && selectedRows.length > 0) {
+      list = list.filter(item => selectedRows.includes(item.row));
     }
     
     // Shuffle
     list.sort(() => Math.random() - 0.5);
     setFilteredList(list);
-  }, [filterAlphabet, filterRow]);
+  }, [filterAlphabet, selectedRows]);
+
+  const handleToggleRow = (rowId: string) => {
+    if (rowId === 'all') {
+      setSelectedRows(['all']);
+    } else {
+      let next = selectedRows.filter(r => r !== 'all');
+      if (next.includes(rowId)) {
+        next = next.filter(r => r !== rowId);
+      } else {
+        next.push(rowId);
+      }
+      if (next.length === 0) {
+        next = ['all'];
+      }
+      setSelectedRows(next);
+    }
+  };
 
   const startGame = () => {
     if (filteredList.length === 0) {
@@ -168,7 +185,13 @@ export const TypingGame: React.FC = () => {
       if (currentIndex < filteredList.length - 1) {
         setCurrentIndex(currentIndex + 1);
       } else {
-        finishGame();
+        if (timeLimit > 0) {
+          const reshuffled = [...filteredList].sort(() => Math.random() - 0.5);
+          setFilteredList(reshuffled);
+          setCurrentIndex(0);
+        } else {
+          finishGame();
+        }
       }
     } else {
       playSound('incorrect');
@@ -185,7 +208,13 @@ export const TypingGame: React.FC = () => {
     if (currentIndex < filteredList.length - 1) {
       setCurrentIndex(currentIndex + 1);
     } else {
-      finishGame();
+      if (timeLimit > 0) {
+        const reshuffled = [...filteredList].sort(() => Math.random() - 0.5);
+        setFilteredList(reshuffled);
+        setCurrentIndex(0);
+      } else {
+        finishGame();
+      }
     }
   };
 
@@ -234,25 +263,55 @@ export const TypingGame: React.FC = () => {
               </select>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontWeight: 600 }}>Theo hàng:</span>
-              <select 
-                value={filterRow} 
-                onChange={(e) => setFilterRow(e.target.value)}
-                style={{ padding: '8px 16px', borderRadius: '8px', background: 'rgba(255,255,255,0.05)', color: 'var(--text-primary)', border: '1px solid var(--card-border)', width: '200px' }}
-              >
-                <option value="all" style={{ background: 'var(--background)' }}>Tất cả các hàng</option>
-                <option value="a" style={{ background: 'var(--background)' }}>Hàng A</option>
-                <option value="ka" style={{ background: 'var(--background)' }}>Hàng Ka</option>
-                <option value="sa" style={{ background: 'var(--background)' }}>Hàng Sa</option>
-                <option value="ta" style={{ background: 'var(--background)' }}>Hàng Ta</option>
-                <option value="na" style={{ background: 'var(--background)' }}>Hàng Na</option>
-                <option value="ha" style={{ background: 'var(--background)' }}>Hàng Ha</option>
-                <option value="ma" style={{ background: 'var(--background)' }}>Hàng Ma</option>
-                <option value="ya" style={{ background: 'var(--background)' }}>Hàng Ya</option>
-                <option value="ra" style={{ background: 'var(--background)' }}>Hàng Ra</option>
-                <option value="wa" style={{ background: 'var(--background)' }}>Hàng Wa</option>
-              </select>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <span style={{ fontWeight: 600 }}>Theo hàng chữ cái (Chọn kết hợp nhiều hàng):</span>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '6px' }}>
+                <button
+                  type="button"
+                  onClick={() => handleToggleRow('all')}
+                  className={`btn ${selectedRows.includes('all') ? 'btn-primary' : 'btn-secondary'}`}
+                  style={{ 
+                    padding: '6px 14px', 
+                    fontSize: '12px', 
+                    borderRadius: '20px', 
+                    border: '1px solid var(--card-border)',
+                    boxShadow: selectedRows.includes('all') ? '0 0 10px rgba(255, 117, 143, 0.3)' : 'none' 
+                  }}
+                >
+                  Tất cả các hàng
+                </button>
+                {[
+                  { id: 'a', label: 'Hàng A' },
+                  { id: 'ka', label: 'Hàng Ka' },
+                  { id: 'sa', label: 'Hàng Sa' },
+                  { id: 'ta', label: 'Hàng Ta' },
+                  { id: 'na', label: 'Hàng Na' },
+                  { id: 'ha', label: 'Hàng Ha' },
+                  { id: 'ma', label: 'Hàng Ma' },
+                  { id: 'ya', label: 'Hàng Ya' },
+                  { id: 'ra', label: 'Hàng Ra' },
+                  { id: 'wa', label: 'Hàng Wa' }
+                ].map(r => {
+                  const isSelected = selectedRows.includes(r.id);
+                  return (
+                    <button
+                      key={r.id}
+                      type="button"
+                      onClick={() => handleToggleRow(r.id)}
+                      className={`btn ${isSelected ? 'btn-primary' : 'btn-secondary'}`}
+                      style={{ 
+                        padding: '6px 14px', 
+                        fontSize: '12px', 
+                        borderRadius: '20px',
+                        border: '1px solid var(--card-border)',
+                        boxShadow: isSelected ? '0 0 10px rgba(255, 117, 143, 0.3)' : 'none' 
+                      }}
+                    >
+                      {r.label}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

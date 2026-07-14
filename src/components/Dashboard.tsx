@@ -156,6 +156,32 @@ export const Dashboard: React.FC<DashboardProps> = ({ completedQuizzes, onSelect
             </p>
           </div>
         </div>
+
+        <div 
+          className="lesson-card-item glass" 
+          onClick={() => onSelectTab('grid-game')}
+          style={{ borderLeft: '5px solid #bd93f9', cursor: 'pointer', padding: '20px' }}
+        >
+          <div>
+            <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Ghép Hàng Cột 🧩</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>
+              Ráp chữ cái Hiragana/Katakana vào đúng ô trống tọa độ Nguyên âm & Phụ âm.
+            </p>
+          </div>
+        </div>
+
+        <div 
+          className="lesson-card-item glass" 
+          onClick={() => onSelectTab('n5-exam')}
+          style={{ borderLeft: '5px solid #ffb86c', cursor: 'pointer', padding: '20px' }}
+        >
+          <div>
+            <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Thi Thử N5 📝</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>
+              Làm đề kiểm tra năng lực N5 chuẩn JLPT với 25 câu hỏi tính giờ thực tế.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

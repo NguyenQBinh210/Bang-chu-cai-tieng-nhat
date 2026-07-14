@@ -8,9 +8,11 @@ import { WorksheetTrainer } from './components/WorksheetTrainer';
 import { MemoryGame } from './components/MemoryGame';
 import { VocabTrainer } from './components/VocabTrainer';
 import { TypingGame } from './components/TypingGame';
+import { GridMatchGame } from './components/GridMatchGame';
+import { N5Exam } from './components/N5Exam';
 import type { Lesson } from './data/lessons';
 
-type ViewState = 'dashboard' | 'alphabet' | 'lessons' | 'lecture' | 'quiz' | 'worksheet' | 'game' | 'vocab' | 'typing';
+type ViewState = 'dashboard' | 'alphabet' | 'lessons' | 'lecture' | 'quiz' | 'worksheet' | 'game' | 'vocab' | 'typing' | 'grid-game' | 'n5-exam';
 
 function App() {
   const [currentView, setCurrentView] = useState<ViewState>('dashboard');
@@ -153,11 +155,29 @@ function App() {
           </li>
           <li className="nav-item">
             <button
+              className={`nav-link ${currentView === 'grid-game' ? 'active' : ''}`}
+              onClick={() => handleNavigate('grid-game')}
+              style={{ background: 'transparent', border: 'none', width: '100%', textAlign: 'left' }}
+            >
+              🧩 Ghép Hàng Cột
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
               className={`nav-link ${currentView === 'game' ? 'active' : ''}`}
               onClick={() => handleNavigate('game')}
               style={{ background: 'transparent', border: 'none', width: '100%', textAlign: 'left' }}
             >
               🎮 Luyện Phản Xạ
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              className={`nav-link ${currentView === 'n5-exam' ? 'active' : ''}`}
+              onClick={() => handleNavigate('n5-exam')}
+              style={{ background: 'transparent', border: 'none', width: '100%', textAlign: 'left' }}
+            >
+              📝 Thi Thử N5
             </button>
           </li>
         </nav>
@@ -252,6 +272,14 @@ function App() {
 
         {currentView === 'typing' && (
           <TypingGame />
+        )}
+
+        {currentView === 'grid-game' && (
+          <GridMatchGame />
+        )}
+
+        {currentView === 'n5-exam' && (
+          <N5Exam />
         )}
       </main>
     </div>
